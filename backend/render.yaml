@@ -1,0 +1,10 @@
+services:
+  - name: task-manager-backend
+    env:
+      - PORT
+      - MONGO_URI
+      - JWT_SECRET
+      - FRONTEND_URL
+    buildCommand: npm install
+    startCommand: npm run start:prod
+    autoDeploy: true
