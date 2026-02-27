@@ -16,5 +16,8 @@
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.0.0",
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.4"
   }
 }
